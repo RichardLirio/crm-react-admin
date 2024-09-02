@@ -13,7 +13,7 @@ import Form from "./pages/form/index";
 // import Pie from "./pages/pie";
 // import FAQ from "./pages/faq";
 // import Geography from "./pages/geography";
-// import Calendario from "./pages/calendario";//calendar
+import Calendario from "./pages/calendario";//calendar
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -37,7 +37,7 @@ function App() {
               {/* <Route path="/pie" element={<Pie />} /> */}
               {/* <Route path="/faq" element={<FAQ />} /> */}
               {/* <Route path="/geografia" element={<Geography />} /> */}
-              {/* <Route path="/calendario" element={<Calendario />} /> */}
+              <Route path="/calendario" element={<Calendario />} />
             </Routes>
           </main>
         </div>

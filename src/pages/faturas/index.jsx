@@ -32,7 +32,7 @@ const Faturas = () => {
       flex: 1,
       renderCell: (params) => (
         <Typography color={colors.greenAccent[500]}>
-          ${params.row.cost}
+          R$ {params.row.cost}
         </Typography>
       ),
     },
