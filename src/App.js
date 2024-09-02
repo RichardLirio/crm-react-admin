@@ -8,11 +8,11 @@ import Users from "./pages/users";//team
 import Faturas from "./pages/faturas";//Invoices
 import Contatos from "./pages/contatos";//contacts
 import Form from "./pages/form/index";
-// import Bar from "./pages/bar";
-// import Line from "./pages/line";
-// import Pie from "./pages/pie";
+import Bar from "./pages/bar";
+import Line from "./pages/line";
+import Pie from "./pages/pie";
 import FAQ from "./pages/faq";
-// import Geography from "./pages/geography";
+import Geography from "./pages/geography";
 import Calendario from "./pages/calendario";//calendar
 
 function App() {
@@ -32,11 +32,11 @@ function App() {
               <Route path="/faturas" element={<Faturas />} />
               <Route path="/contatos" element={<Contatos />} />
               <Route path="/form" element={<Form />} />
-              {/* <Route path="/bar" element={<Bar />} /> */}
-              {/* <Route path="/line" element={<Line />} /> */}
-              {/* <Route path="/pie" element={<Pie />} /> */}
+              <Route path="/bar" element={<Bar />} />
+              <Route path="/line" element={<Line />} />
+              <Route path="/pie" element={<Pie />} />
               <Route path="/faq" element={<FAQ />} />
-              {/* <Route path="/geografia" element={<Geography />} /> */}
+              <Route path="/geografia" element={<Geography />} />
               <Route path="/calendario" element={<Calendario />} />
             </Routes>
           </main>
