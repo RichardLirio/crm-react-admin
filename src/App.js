@@ -5,7 +5,7 @@ import Topbar from "./pages/global/Topbar";
 import Sidebar from "./pages/global/Sidebar";
 import Dashboard from "./pages/dashboard";//dashboard
 import Users from "./pages/users";//team
-// import Faturas from "./pages/faturas";//Invoices
+import Faturas from "./pages/faturas";//Invoices
 import Contatos from "./pages/contatos";//contacts
 // import Bar from "./pages/bar";
 // import Form from "./pages/form";
@@ -29,7 +29,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/users" element={<Users />} />
-              {/* <Route path="/faturas" element={<Faturas />} /> */}
+              <Route path="/faturas" element={<Faturas />} />
               <Route path="/contatos" element={<Contatos />} />
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/form" element={<Form />} /> */}

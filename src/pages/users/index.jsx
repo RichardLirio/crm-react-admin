@@ -103,6 +103,10 @@ const Users = () => {
           ".css-1j9zlvn-MuiDataGrid-root .MuiDataGrid-container--top [role=row]": {
             backgroundColor: colors.blueAccent[700],
           },
+          ".css-uzwh92-MuiDataGrid-root .MuiDataGrid-container--top [role=row]":
+            {
+              backgroundColor: colors.blueAccent[700],
+            },
         }}
       >
         <DataGrid rows={mockDataTeam} columns={columns} />
