@@ -12,7 +12,10 @@ const Users = () => {
   const colors = tokens(theme.palette.mode);
 
   const columns = [
-    { field: "id", headerName: "ID" },
+    {
+      field: "id",
+      headerName: "ID",
+    },
     {
       field: "name",
       headerName: "Nome",
@@ -84,7 +87,7 @@ const Users = () => {
             color: colors.greenAccent[300],
           },
           "& .MuiDataGrid-columnHeaders": {
-            backgroundColor: colors.blueAccent[700],
+            backgroundColor: `${colors.blueAccent[700]} !important`,
             borderBottom: "none",
           },
           "& .MuiDataGrid-virtualScroller": {
@@ -96,6 +99,9 @@ const Users = () => {
           },
           "& .MuiCheckbox-root": {
             color: `${colors.greenAccent[200]} !important`,
+          },
+          ".css-1j9zlvn-MuiDataGrid-root .MuiDataGrid-container--top [role=row]": {
+            backgroundColor: colors.blueAccent[700],
           },
         }}
       >
