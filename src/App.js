@@ -7,8 +7,8 @@ import Dashboard from "./pages/dashboard";//dashboard
 import Users from "./pages/users";//team
 import Faturas from "./pages/faturas";//Invoices
 import Contatos from "./pages/contatos";//contacts
+import Form from "./pages/form/index";
 // import Bar from "./pages/bar";
-// import Form from "./pages/form";
 // import Line from "./pages/line";
 // import Pie from "./pages/pie";
 // import FAQ from "./pages/faq";
@@ -31,8 +31,8 @@ function App() {
               <Route path="/users" element={<Users />} />
               <Route path="/faturas" element={<Faturas />} />
               <Route path="/contatos" element={<Contatos />} />
+              <Route path="/form" element={<Form />} />
               {/* <Route path="/bar" element={<Bar />} /> */}
-              {/* <Route path="/form" element={<Form />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
               {/* <Route path="/faq" element={<FAQ />} /> */}
